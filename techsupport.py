@@ -91,8 +91,6 @@ if command == "Click on it!" or "Click on it.":
         tts("It now wants me to change my phone number!")
         score = score - 2
         tts("I really wish I just said yes.")
-        yelpreviews[yelp] = 2
-        yelp = yelp + 1
 tts("Your current score is " + str(score) + "!")
 print("Phone Reciever")
 print("Ready for calls")
