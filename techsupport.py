@@ -83,16 +83,19 @@ yelp = 0
 if command == "Click on it!" or "Click on it.":
     tts("OK, I clicked on it.")
     tts("Should I say yes or no?")
-    command = input("You: ")
-    if command == "Yes!" or "Yes.":
+    command2 = input("You: ")
+    if command2 == "Yes!" or command2 == "Yes.":
         tts("Thank you!")
         score = score + 6
-    else:
+    elif command2 == "No." or command2 == "No!":
         tts("It now wants me to change my phone number!")
         score = score - 2
         tts("I really wish I just said yes.")
+else:
+    print("That solution is not in Tech Support Simulator.")
 tts("Your current score is " + str(score) + "!")
 print("Phone Reciever")
 print("Ready for calls")
-if score == 1:
-    print("")
+if score <= 0 and mode == "Sandbox":
+    tts("Sorry, but if you don't have any points by your 3rd call, I will have to fire you.")
+    tts("If you didn't expect that, then maybe read your contract before working here at " + companyname + ".")
