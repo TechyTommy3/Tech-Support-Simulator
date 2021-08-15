@@ -96,6 +96,6 @@ else:
 tts("Your current score is " + str(score) + "!")
 print("Phone Reciever")
 print("Ready for calls")
-if score <= 0 and mode == "Sandbox":
+if score < 1 and mode == "Sandbox":
     tts("Sorry, but if you don't have any points by your 3rd call, I will have to fire you.")
     tts("If you didn't expect that, then maybe read your contract before working here at " + companyname + ".")
