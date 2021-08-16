@@ -1,3 +1,5 @@
+#Wow, you read source code? Help me by adding some code to Tech Support Simulator, testing it, then run the build task!
+#Ensure you get the original, safe copy of this by getting it from the repository from GitHub. Typed GitHug on accident, but I would like GitHug better than GitHub.
 from gtts import gTTS
 from playsound import playsound
 import os
@@ -91,6 +93,8 @@ if command == "Click on it!" or "Click on it.":
         tts("It now wants me to change my phone number!")
         score = score - 2
         tts("I really wish I just said yes.")
+elif command == "I need to remotly acess your iPad.":
+    print("This isn't the place to try out your tech support scammer skills.")
 else:
     print("That solution is not in Tech Support Simulator.")
 tts("Your current score is " + str(score) + "!")
@@ -99,3 +103,20 @@ print("Ready for calls")
 if score < 1 and mode == "Sandbox":
     tts("Sorry, but if you don't have any points by your 3rd call, I will have to fire you.")
     tts("If you didn't expect that, then maybe read your contract before working here at " + companyname + ".")
+    tts("And that was the easiest Tech Support Job yet!")
+    tts("That happens to me ever year, and I click yes and nothing happens!")
+    tts("Hope you do better!")
+time.sleep(6)
+tts("You got a call.")
+input("Type Y to accept, or N to decline.")
+tts("Hi!")
+tts("I need help with my Chromebook.")
+tts("Whenever I right click any link, I have the option to open it in Copy to clipboard.")
+tts("COPY TO CLIPBOARD!!")
+tts("Could you help me get that off my Chromebook?")
+command = input("You: ")
+if command == "Powerwash your Chromebook!" or command == "Powerwash your Chromebook." or command == "Powerwash it!" or command == "Powerwash it.":
+    tts("What does powerwash mean, and what does it do?")
+    input("You: ")
+    tts("OK, got it.")
+    tts("But I ")
