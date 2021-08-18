@@ -150,5 +150,3 @@ print("This person needs help with their M1 MacBook Air with 8-core CPU and 7-co
 input("Type Y to accept, or N to decline.")
 tts("Hi!")
 tts("I need help with my MacBook Air.")
-tts("I want to install macOS Monetry Beta alongside macOS Big Sur.")
-tts("How do I do some dual-booting stuff?")
