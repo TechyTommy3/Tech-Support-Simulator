@@ -150,3 +150,4 @@ print("This person needs help with their M1 MacBook Air with 8-core CPU and 7-co
 input("Type Y to accept, or N to decline.")
 tts("Hi!")
 tts("I need help with my MacBook Air.")
+tts("Whenever I log on, it just brings me back to the login screen!")
