@@ -181,4 +181,9 @@ if command == "Open up your terminal!" or command == "Open up your terminal.":
                 tts("I created a private repository!")
                 tts("Now how do I get this on Git?")
                 command = input("You: ")
+                if command == "Run a command!" or command == "Run a command.":
+                    tts("What command?")
+                    input("PS C:\\Users\\Me\\Coding")
+                    if command == "git clone":
+                        tts("Assume I put a Git URL here.")
 print("Your new score is " + score + "!")
