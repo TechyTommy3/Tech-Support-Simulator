@@ -186,4 +186,8 @@ if command == "Open up your terminal!" or command == "Open up your terminal.":
                     input("PS C:\\Users\\Me\\Coding")
                     if command == "git clone":
                         tts("Assume I put a Git URL here.")
+                        time.sleep(5)
+                        tts("My completed command is git clone https://github.com/Me/MyNewGame.git!")
+                        tts("Now I am going to run that!")
+                        print("Running command...")
 print("Your new score is " + score + "!")
