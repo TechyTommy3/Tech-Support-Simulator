@@ -169,4 +169,7 @@ if command == "Open up your terminal!" or command == "Open up your terminal.":
         tts("Ummm, you just made a mistake.")
         tts("You make a repository on GitHub online, and then install GitHub CLI, and then install Git for Windows, and then run git clone https://github.com/GithubUsername/dtest.git. To keep it updated, you can use git push and git pull.")
         score = score - 6
+    if mstommy == "You don't need to be here.":
+        tts("OK. Where to go?")
+        command = input("You: ")
 print("Your new score is " + score + "!")
