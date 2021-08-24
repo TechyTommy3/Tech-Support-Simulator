@@ -172,4 +172,6 @@ if command == "Open up your terminal!" or command == "Open up your terminal.":
     if mstommy == "You don't need to be here.":
         tts("OK. Where to go?")
         command = input("You: ")
+        if command == "To GitHub!":
+            print()
 print("Your new score is " + score + "!")
