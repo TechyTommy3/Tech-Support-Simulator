@@ -179,4 +179,6 @@ if command == "Open up your terminal!" or command == "Open up your terminal.":
             command = input("You: ")
             if command == "Create a repository!" or command == "Create a repository.":
                 tts("I created a private repository!")
+                tts("Now how do I get this on Git?")
+                command = input("You: ")
 print("Your new score is " + score + "!")
