@@ -174,5 +174,6 @@ if command == "Open up your terminal!" or command == "Open up your terminal.":
         command = input("You: ")
         if command == "To GitHub!":
             tts("OK.")
-            tts("Just created my GitHub account!")
+            tts("Just created my GitHub account a couple of days ago!")
+            tts("Now what do I do here?")
 print("Your new score is " + score + "!")
