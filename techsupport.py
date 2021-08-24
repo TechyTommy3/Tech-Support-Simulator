@@ -139,7 +139,7 @@ if command == "Powerwash your Chromebook!" or command == "Powerwash your Chromeb
         tts("It just copied the link to my clipboard.")
         tts("I'm going to call another tech support company!")
         score = score - 9
-tts("You have " + score + " points.")
+tts("You have " + str(score) + " points.")
 print("Phone Reciever")
 print("Ready for calls")
 time.sleep(5)
@@ -190,4 +190,7 @@ if command == "Open up your terminal!" or command == "Open up your terminal.":
                         tts("My completed command is git clone https://github.com/Me/MyNewGame.git!")
                         tts("Now I am going to run that!")
                         print("Running command...")
-print("Your new score is " + score + "!")
+                        time.sleep(2)
+                        print("Thank you!")
+                        score = score + 9
+print("Your new score is " + str(score) + "!")
