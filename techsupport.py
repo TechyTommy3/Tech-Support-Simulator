@@ -150,3 +150,7 @@ print("This person needs help with their M1 MacBook Air with 8-core CPU and 7-co
 input("Type Y to accept, or N to decline.")
 tts("Hi!")
 tts("I need help with command line Git.")
+tts("I want to collabrate with my friends on coding!")
+tts("I installed Git through WinGet.")
+print("The Windows Package Manager (also known as winget) is a free and open-source package manager designed by Microsoft for Windows 10 and Windows 11. It consists of a command-line utility and a set of services for installing applications. ISVs can use it as a distribution channel for their software packages.")
+print("https://en.wikipedia.org/wiki/Windows_Package_Manager")
