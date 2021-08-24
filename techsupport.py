@@ -164,4 +164,9 @@ if command == "Open up your terminal!" or command == "Open up your terminal.":
     print("Copyright (C) Microsoft Corporation. All rights reserved.")
     print("")
     print("Try the new cross-platform PowerShell https://aka.ms/pscore6")
-    mstommy = input("PS C:\\Users\\Me>")
+    mstommy = input("PS C:\\Users\\Me> ")
+    if mstommy == "git clone":
+        tts("Ummm, you just made a mistake.")
+        tts("You make a repository on GitHub online, and then install GitHub CLI, and then install Git for Windows, and then run git clone https://github.com/GithubUsername/dtest.git. To keep it updated, you can use git push and git pull.")
+        score = score - 6
+print("Your new score is " + score + "!")
