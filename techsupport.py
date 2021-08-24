@@ -176,4 +176,7 @@ if command == "Open up your terminal!" or command == "Open up your terminal.":
             tts("OK.")
             tts("Just created my GitHub account a couple of days ago!")
             tts("Now what do I do here?")
+            command = input("You: ")
+            if command == "Create a repository!" or command == "Create a repository.":
+                tts("I created a private repository!")
 print("Your new score is " + score + "!")
