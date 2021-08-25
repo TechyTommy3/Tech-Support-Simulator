@@ -212,3 +212,7 @@ tts("Even I go here!")
 #Thank you, mostly thank me, for all of the helping 😀!
 #Hope your text editor supports emojis!
 #TechyTommy
+print("Phone Reciever")
+print("Ready for calls")
+tts("You got a call.")
+input("Type Y to accept, or N to decline.")
