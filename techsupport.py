@@ -194,3 +194,12 @@ if command == "Open up your terminal!" or command == "Open up your terminal.":
                         print("Thank you!")
                         score = score + 9
 print("Your new score is " + str(score) + "!")
+if score < 1 and mode == "Sandbox":
+    tts("This was the 3rd tech support call.")
+    tts("Unfortnatly, I will have to fire you.")
+    tts("Your final score was 0.")
+    tts("See you the next time you play Tech Support Simulator!")
+    tts("To play again, run techsupport.exe or techsupport.py again.")
+    tts("Thank you!")
+    tts("TechyTommy and all the other people that helped with Tech Support Simulator")
+    exit()
