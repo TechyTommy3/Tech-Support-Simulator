@@ -221,3 +221,5 @@ tts("Hi!")
 tts("We want to send files between our Fire Tablets.")
 tts("How do we do that?")
 command = input("You: ")
+if command == "Install Google Play!" or "Install Google Play.":
+    print("OK!")
