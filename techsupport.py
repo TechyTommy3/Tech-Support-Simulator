@@ -223,4 +223,6 @@ tts("How do we do that?")
 command = input("You: ")
 if command == "Install Google Play!" or "Install Google Play.":
     tts("OK!")
-    tts("")
+    tts("I installed Google Play before.")
+    tts("Now how do I send files?")
+    tts("I speficaly want to send pictures.")
