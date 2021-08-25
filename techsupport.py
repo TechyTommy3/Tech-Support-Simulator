@@ -203,3 +203,8 @@ if score < 1 and mode == "Sandbox":
     tts("Thank you!")
     tts("TechyTommy and all the other people that helped with Tech Support Simulator")
     exit()
+tts("Wow!")
+tts("You have completed 3 phone calls and have got " + score + " points!")
+tts("Now, seems like everybody is going to " + companyname + " for tech support!")
+tts("Even I go here!")
+#Woah, a big 210 lines!
