@@ -208,4 +208,3 @@ tts("You have completed 3 phone calls and have got " + score + " points!")
 tts("Now, seems like everybody is going to " + companyname + " for tech support!")
 tts("Even I go here!")
 #Woah, a big 210 lines!
-#Never thought I would get (or git) here! 😀
