@@ -226,3 +226,9 @@ if command == "Install Google Play!" or "Install Google Play.":
     tts("I installed Google Play before.")
     tts("Now how do I send files?")
     tts("I speficaly want to send pictures.")
+    command = input("You: ")
+    if command == "Find the picture that you need and press the share button!" or command == "Find the picture that you need and press the send button!":
+        tts("I pressed that button, and pressed Nearby Send, and could send pictures between devices!")
+        score = score + 12
+        tts("Thank you!")
+print("You now have " + str(score) + " points.")
