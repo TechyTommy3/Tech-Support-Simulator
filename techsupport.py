@@ -223,3 +223,4 @@ tts("How do we do that?")
 command = input("You: ")
 if command == "Install Google Play!" or "Install Google Play.":
     tts("OK!")
+    tts("")
