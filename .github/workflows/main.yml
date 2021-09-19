@@ -35,3 +35,4 @@ jobs:
       
      #Now compile
       - name: Compile Tech Support Simulator
+        run: python compile.py py2exe
