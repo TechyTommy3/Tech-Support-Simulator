@@ -8,3 +8,5 @@ and then to run it, type in
 cd dist
 techsupport
 The dist folder contains the latest playable version.
+# Build
+Good news. We have the build system on autopilot. Just pull the latest version and run techsupport.exe!
