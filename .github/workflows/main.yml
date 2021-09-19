@@ -24,12 +24,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+      
       # Runs a single command using the runners shell
       - name: Make sure that py2exe is installed
         run: pip install py2exe
+        
       # Install gTTS
       - name: Make sure that gTTS is installed
         run: pip install gTTS
+      
      #Now compile
       - name: Compile Tech Support Simulator
