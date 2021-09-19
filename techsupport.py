@@ -22,6 +22,7 @@ if mode == "Text":
         print(mytext)
 tts("Welcome to Tech Support Simulator!")
 tts("What is your name, and what do you want your company to be named?")
+print("This test line is here to ensure that GitHub does something.")
 myname = input("Your name: ")
 companyname = input("Company name: ")
 tts("Your name is " + myname + " and you are working for " + companyname + ".")
