@@ -232,3 +232,11 @@ if command == "Install Google Play!" or "Install Google Play.":
         score = score + 12
         tts("Thank you!")
 print("You now have " + str(score) + " points.")
+print("Phone Reciever")
+print("Ready for calls")
+tts("You got a call.")
+print("This family needs help with their Fire Tablets.")
+input("Type Y to accept, or N to decline.")
+tts("Hi!")
+tts("I want to make it so whenever I push to GitHub, it compiles my code.")
+tts("Could you help me do that?")
