@@ -36,3 +36,15 @@ jobs:
      #Now compile
       - name: Compile Tech Support Simulator
         run: python compile.py py2exe
+    # Push to GitHub
+      - name: Set Git username
+        run: git config --global user.name "GitHub Actions Build"
+    # Push to GitHub
+      - name: Set Git email
+        run: git config --global user.email "86322453+TechyTommy3@users.noreply.github.com"
+      - name: Add files
+        run: git add --all
+      - name: Commit to GitHub
+        run: git commit -m "Automated build action"
+      - name: Push to GitHub
+        run: git push
